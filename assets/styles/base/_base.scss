@@ -1,0 +1,13 @@
+// ここにスタイルを書く
+
+@include mq() {
+    // spのスタイル
+};
+
+@include mq($breakpoint: tab) {
+    // tabのスタイル
+};
+
+@include mq($breakpoint: pc) {
+    // pcのスタイル
+};
